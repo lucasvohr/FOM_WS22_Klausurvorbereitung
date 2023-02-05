@@ -16,6 +16,9 @@ print(txt_1 + " " + txt_2)
 
 print(c, "zusammen mit einem String")
 
+print(a, b, c, sep = "__")
+print("%10,3f" [42.56])
+
 print("----------------\n")
 
 # hier wirkt das PLUS nicht als Konkatination sondern mathematisch als Addition
@@ -106,3 +109,13 @@ def f():
 s = "Python"
 f()
 print(s)
+
+print("----------------\n")
+
+def c():
+    g = "Perl"
+    print(g)
+
+g = "Python"
+c()
+print(g)
