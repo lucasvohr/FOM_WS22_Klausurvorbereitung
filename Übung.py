@@ -17,7 +17,7 @@ print(txt_1 + " " + txt_2)
 print(c, "zusammen mit einem String")
 
 print(a, b, c, sep = "__")
-print("%10,3f" [42.56])
+print("%10.3f" % (c))
 
 print("----------------\n")
 
